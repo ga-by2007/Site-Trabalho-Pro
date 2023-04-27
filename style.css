@@ -1,5 +1,5 @@
 header {
-    background-color: #424E61;
+    background-color: #6B260A;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -16,23 +16,40 @@ header {
     margin: 0 16px;
     font-size: 24px;
 }
-.escola{
-    color:white;
-    display: flex;
+.sobre{
+    background-image: linear-gradient(#6B260A, white);
+    color: white;
+    display:flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
-.escola-div-conteudo{
+.sobre-div-conteudo{
     width: 35%;
 }
-.escola-titulo{
+.sobre-titulo{
     padding: 24px 0;
 }
-.estudante-imagem{
+.editora-imagem{
     width: 120px;
 }
-.estudante-div{
+.editora-div{
     text-align: center;
     padding: 16px 0;
+}
+.editora-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.editora-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
